@@ -69,7 +69,7 @@ def comparator_n_translator(phrase):
     return phrase_
 
 def main():
-    phrase = input('pinto: ')
+    phrase = input('phrase: ')
     phrase = comparator_n_translator(phrase)
     print('toma:', phrase)
 main()
